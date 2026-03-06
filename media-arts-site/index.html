@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media Arts 10/11 | Haruzumi Furukawa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-home">
+  <!-- Shared portfolio navigation -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main Navigation">
+      <a href="index.html" class="brand">Media Arts 10/11</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="assignments.html" class="nav-link">Assignments</a></li>
+        <li><a href="photography.html" class="nav-link">Photography</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section with photography-style background -->
+    <section class="hero" aria-label="Media Arts Hero Section">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <h1>MEDIA ARTS</h1>
+        <p class="student-name">Haruzumi Furukawa</p>
+        <p class="credit">Image source: Pexels</p>
+      </div>
+    </section>
+
+    <!-- Biography section -->
+    <section class="section container biography" id="biography">
+      <h2>Biography</h2>
+      <p>
+        My name is Haruzumi Furukawa, and I am deeply interested in the relationship between art and science. After seeing Salvador Dali's melting clock painting, I became curious about how visual art can express ideas about time and space. That image made me think about Einstein's theory of relativity and how perception can change depending on where we stand. In my Media Arts work, I want to explore imagination, multiple dimensions, and the way time can feel fluid instead of fixed. I am especially interested in creating images that combine emotion with scientific concepts. Through this class, I hope to develop an intuitive artistic sense that connects thought, feeling, and visual form.
+      </p>
+    </section>
+
+    <!-- Time/Relativity animation section -->
+    <section class="section section-dark" id="relativity">
+      <div class="container">
+        <h2>Time, Space, and Perception</h2>
+        <div class="relativity-scene" id="relativityScene" aria-label="Relativity Inspired Animation">
+          <!-- Stage 1 & 2: Surreal clock that softens, sags, and collapses -->
+          <div class="clock-stage" id="clockStage">
+            <div class="dream-sky"></div>
+            <div class="horizon-line"></div>
+            <div class="clock-platform"></div>
+
+            <div class="clock-composition">
+              <div class="clock-aura"></div>
+              <div class="clock-shell">
+                <div class="clock-bezel"></div>
+                <div class="glass-layer">
+                  <span class="glass-glint glint-a"></span>
+                  <span class="glass-glint glint-b"></span>
+                </div>
+                <div class="minute-ring"></div>
+                <div class="clock-face">
+                  <span class="hand hour"></span>
+                  <span class="hand minute"></span>
+                  <span class="hand second"></span>
+                  <span class="clock-core"></span>
+                  <span class="numeral n12">XII</span>
+                  <span class="numeral n3">III</span>
+                  <span class="numeral n6">VI</span>
+                  <span class="numeral n9">IX</span>
+                </div>
+                <div class="surface-ripple"></div>
+                <div class="melt-drip drip-a"></div>
+                <div class="melt-drip drip-b"></div>
+                <div class="melt-drip drip-c"></div>
+              </div>
+              <div class="clock-fragments" id="clockFragments" aria-hidden="true"></div>
+            </div>
+          </div>
+
+          <!-- Stage 3 & 4: Transition into warped spacetime and relativity field -->
+          <div class="space-stage" id="spaceStage" aria-hidden="true">
+            <div class="grid-emergence"></div>
+            <div class="curved-grid"></div>
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbit orbit-three"></div>
+            <div class="bend-center"></div>
+            <div class="particles" id="particles"></div>
+          </div>
+
+          <!-- Stage 5: Final quote -->
+          <div class="quote-stage" id="quoteStage" aria-hidden="true">
+            <p>"Where time softens, space begins to move."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Artwork section -->
+    <section class="section container artwork" id="artwork">
+      <h2>My Artwork</h2>
+      <figure class="artwork-frame">
+        <img src="images/francisco-haruzumi-artwork.png" alt="Original artwork by Haruzumi Furukawa" />
+      </figure>
+      <p class="art-caption-title">Artwork title placeholder</p>
+      <p class="art-caption-desc">Through magnification and metamorphosis, this piece reveals hidden distortions within space. From a distance it appears stable and familiar, yet up close the structure of space begins to bend. The work reflects the idea that space and perception are not absolute, echoing concepts found in Einstein’s theory of relativity.</p>
+
+      <!-- Blurred surreal explanation panel inspired by melting time -->
+      <div class="artwork-explanation" aria-label="Artwork explanation">
+        <p>
+          This piece explores a moment where time appears to stretch and soften. I used layered forms and drifting edges to suggest that reality can bend with perception. The blurred atmosphere is inspired by the feeling of melting time, where memory, motion, and space overlap into one visual field.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Haruzumi Furukawa. Media Arts 10/11.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

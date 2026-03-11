@@ -2,7 +2,9 @@
   Haruzumi Furukawa - Media Arts 10/11 Portfolio
   Shared visual system for all pages.
 */
-
+body {
+  background-color: white;
+}
 :root {
   --deep-navy: #0e1a2c;
   --black: #0a0a0d;

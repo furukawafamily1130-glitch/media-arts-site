@@ -5,6 +5,14 @@
 body {
   background-color: white;
 }
+/* force white background */
+html, body {
+  background-color: #ffffff !important;
+}
+html, body {
+  background-color: #ffffff !important;
+  color: #000000;
+}
 :root {
   --deep-navy: #0e1a2c;
   --black: #0a0a0d;
